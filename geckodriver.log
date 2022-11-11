@@ -1,0 +1,91 @@
+1667849099935	geckodriver	INFO	Listening on 127.0.0.1:57343
+1667849102932	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57344" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\user\\AppData\\Local\\Temp\\rust_mozprofileU4WIgX"
+1667849117391	Marionette	INFO	Marionette enabled
+1667849117441	Marionette	INFO	Listening on port 57364
+Read port: 57364
+WebDriver BiDi listening on ws://127.0.0.1:57344
+Read port: 57364
+1667849122606	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 768))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 420))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\user\\AppData\\Local\\Temp\\rust_mozprofileU4WIgX\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:57344/devtools/browser/22aba6cd-216f-420c-8a62-f050886fea46
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 307: NS_ERROR_FAILURE: Should pass a non-null uri
+JavaScript warning: https://passport.twitch.tv/149e9513-01fa-4fb0-aad4-566afd725d1b/2d206a39-8ed7-437e-a3be-862e0f06eea3/fp, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://gql.twitch.tv/149e9513-01fa-4fb0-aad4-566afd725d1b/2d206a39-8ed7-437e-a3be-862e0f06eea3/fp, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1667849193916	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:236:24
+TimedPromise@chrome://remote/content/marionette/sync.js:221:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.twitch.tv."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.twitch.tv."
+1667849471868	Marionette	INFO	Stopped listening on port 57364
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1667849967249	geckodriver	INFO	Listening on 127.0.0.1:57919
+1667849969977	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-profile" "C:\\Users\\user\\AppData\\Local\\Mozilla\\Firefox\\Profiles\\j9qm8nmx.default-release" "--remote-debugging-port" "57920" "--remote-allow-hosts" "localhost" "-no-remote"
+1667849972172	Marionette	INFO	Marionette enabled
+1667849972180	Marionette	INFO	Listening on port 57933
+Read port: 57933
+WebDriver BiDi listening on ws://127.0.0.1:57920
+1667849972952	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 768))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 420))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\user\\AppData\\Local\\Mozilla\\Firefox\\Profiles\\j9qm8nmx.default-release\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:57920/devtools/browser/7145dd20-14c4-4123-b1b9-4f7ff32c4609
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 307: NS_ERROR_FAILURE: Should pass a non-null uri
+JavaScript warning: https://gql.twitch.tv/149e9513-01fa-4fb0-aad4-566afd725d1b/2d206a39-8ed7-437e-a3be-862e0f06eea3/fp, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://passport.twitch.tv/149e9513-01fa-4fb0-aad4-566afd725d1b/2d206a39-8ed7-437e-a3be-862e0f06eea3/fp, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.twitch.tv."
+1667850045735	Marionette	INFO	Stopped listening on port 57933
+[Parent 8556, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+[Parent 8556, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1667850877816	geckodriver	INFO	Listening on 127.0.0.1:58493
+1667850880903	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-profile" "C:\\Users\\user\\AppData\\Local\\Mozilla\\Firefox\\Profiles\\j9qm8nmx.default-release" "--remote-debugging-port" "58494" "--remote-allow-hosts" "localhost" "-no-remote"
+1667850889583	Marionette	INFO	Marionette enabled
+1667850889751	Marionette	INFO	Listening on port 58510
+WebDriver BiDi listening on ws://127.0.0.1:58494
+Read port: 58510
+[GFX1-]: shader-cache: Timed out before finishing loads
+[2022-11-07T19:54:57Z ERROR webrender_bindings::program_cache] shader-cache: Timed out before finishing loads
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 768))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 420))
+1667850901056	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:58494/devtools/browser/da8b6399-290a-44dd-8c1c-5b5ee9e1b00d
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 307: NS_ERROR_FAILURE: Should pass a non-null uri
+1667850932158	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:236:24
+TimedPromise@chrome://remote/content/marionette/sync.js:221:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.twitch.tv."
+1667851103564	Marionette	INFO	Stopped listening on port 58510
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1667851255347	geckodriver	INFO	Listening on 127.0.0.1:58676
+1667851259377	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-profile" "C:\\Users\\user\\AppData\\Local\\Mozilla\\Firefox\\Profiles\\jco1rfr8.default" "--remote-debugging-port" "58677" "--remote-allow-hosts" "localhost" "-no-remote"
+1667851263921	Marionette	INFO	Marionette enabled
+1667851263929	Marionette	INFO	Listening on port 58693
+Read port: 58693
+WebDriver BiDi listening on ws://127.0.0.1:58677
+1667851265105	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\user\\AppData\\Local\\Mozilla\\Firefox\\Profiles\\jco1rfr8.default\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:58677/devtools/browser/78714333-6d26-4f30-9fc6-eb32c7c20ca1
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 307: NS_ERROR_FAILURE: Should pass a non-null uri
+JavaScript warning: https://gql.twitch.tv/149e9513-01fa-4fb0-aad4-566afd725d1b/2d206a39-8ed7-437e-a3be-862e0f06eea3/fp, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://passport.twitch.tv/149e9513-01fa-4fb0-aad4-566afd725d1b/2d206a39-8ed7-437e-a3be-862e0f06eea3/fp, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1667851352457	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:236:24
+TimedPromise@chrome://remote/content/marionette/sync.js:221:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.twitch.tv."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.twitch.tv."
+1667851362027	Marionette	INFO	Stopped listening on port 58693
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+[Parent 3332, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1667947373469	geckodriver	INFO	Listening on 127.0.0.1:64392
+1667947548734	geckodriver	INFO	Listening on 127.0.0.1:64511
+1667947917464	geckodriver	INFO	Listening on 127.0.0.1:64810
+1667982452498	geckodriver	INFO	Listening on 127.0.0.1:55042
+1667982573585	geckodriver	INFO	Listening on 127.0.0.1:55105
