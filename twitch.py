@@ -9,18 +9,17 @@ import os
 
 #import wget
 os.environ['PATH'] += r"C:/Chromedriver"
+options = uc.ChromeOptions()
+options.add_argument("user-data-dir=C:\\Users\\user\\AppData\\Local\\Google\\Chrome\\User Data")
+options.add_argument("Profile 1")
+options.add_experimental_option("detach", True)
+driver = uc.Chrome(chrome_options=options, use_subprocess=True)
+driver.set_window_size(1024, 600)
+driver.maximize_window()
+
 
 def twitch_login():
-    options = uc.ChromeOptions()
-    options.add_argument("user-data-dir=C:\\Users\\user\\AppData\\Local\\Google\\Chrome\\User Data")
-    options.add_argument("Profile 1")
-    options.add_experimental_option("detach", True)
-    driver = uc.Chrome(chrome_options=options, use_subprocess=True)
-    driver.set_window_size(1024, 600)
-    driver.maximize_window()
-
-
-    #open the webpage
+    # get twitch url
     driver.get("https://www.twitch.tv/brawlhalla")
 
     #target username
@@ -36,8 +35,7 @@ def twitch_login():
 
     #target the login button and click it
     button = WebDriverWait(driver, 60).until(EC.element_to_be_clickable((By.CSS_SELECTOR, "body > div.ReactModalPortal > div > div > div > div > div > div.Layout-sc-nxg1ff-0.gmqBFP > div > div > div.Layout-sc-nxg1ff-0.gZaqky > form > div > div:nth-child(3) > button > div > div"))).click()
-
     while(True):
         pass
 
-twitch_login()    
+
