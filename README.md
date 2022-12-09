@@ -6,3 +6,5 @@ The purpose of this project is:
   4. Open Brawlhalla
   5. Enter the code of collected points
   6. Redeem points
+
+For complete code whatsapp me @ +254719403612
